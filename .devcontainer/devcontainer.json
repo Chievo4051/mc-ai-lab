@@ -1,0 +1,16 @@
+{
+  "name": "Minecraft AI Lab",
+  "image": "mcr.microsoft.com/devcontainers/java:17-bullseye",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
+
+  "forwardPorts": [25565, 3000],
+  "portsAttributes": {
+    "25565": { "label": "Minecraft Server" },
+    "3000": { "label": "AI Viewer" }
+  }
+}
