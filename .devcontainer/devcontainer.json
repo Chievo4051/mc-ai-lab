@@ -4,7 +4,9 @@
   
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "17"
+      "version": "21",
+      "installMaven": "false",
+      "installGradle": "false"
     },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
@@ -19,4 +21,4 @@
     "25565": { "label": "Minecraft Server" },
     "3000": { "label": "AI Viewer" }
   }
-}
+}}
