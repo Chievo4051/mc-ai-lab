@@ -1,8 +1,14 @@
 {
-  "name": "Minecraft AI Lab",
-  "image": "mcr.microsoft.com/devcontainers/java:17-bullseye",
+  "name": "Minecraft AI Lab (Complete)",
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
   
   "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    },
     "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
     }
